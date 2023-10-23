@@ -3,12 +3,23 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background: rgba(207, 194, 194, 0.7); 
+    background-image: url('travel_icon.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 }
+
 .container {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: 200px auto ;
     text-align: center;
-    padding: 80px 0;
+    padding: 60px 0;
+    background-color: #cac0c0;
+    border-radius: 20%;
 }
 h1 {
     font-size: 36px;
@@ -25,4 +36,12 @@ p {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
+}
+
+span{
+    color: chocolate;
+    text-decoration: underline;
+}
+p {
+    text-decoration:overline;
 }
